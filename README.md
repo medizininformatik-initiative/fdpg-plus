@@ -1,14 +1,14 @@
 # fdpg-plus
 
 This repository is used to:
-- collect issues spanning multiple repositories
-- collect issues from the community
+- Collect issues spanning multiple repositories
+- Collect issues from the community
 
 
 ## Community Issues
 
 To create a coherent overview of all issues and how they relate to the release planning we ask the community to mostly use this repository to submit new issues,
-unless the person adding the issues is certain which repository the issues belongs to. In this case the person should create the issue directly in the appropriate repository.
+unless the person adding an issue is certain which repository the issue belongs to. In this case the person should create the issue directly in the appropriate repository.
 
 ### Submitting an Issues
 
