@@ -12,7 +12,7 @@ unless the person adding an issue is certain which repository the issue belongs 
 
 ### Submitting an Issues
 
-**1. Please ensure that any issue is described a clearly as possible.**
+**1. Please ensure that any issue is described as clearly as possible.**
 
 **2. When a new issues is submitted it will first have to be reviewed by one of us.**
 
