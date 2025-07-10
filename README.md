@@ -6,34 +6,35 @@ This repository is used to:
 
 ## Our repositories
 
+Overview of the repositories currently maintained by the fdpg-plus project:
 
-| Repository Name                               | Description                                                              | Language     | Link                                                                 |
-|-----------------------------------------------|--------------------------------------------------------------------------|--------------|----------------------------------------------------------------------|
-| torch                                         | Extracts data from FHIR Server according to CRTDL                        | Java         | [Link](https://github.com/medizininformatik-initiative/torch)       |
-| fhir-ontology-generator                       | Generate FHIR ontologies                                                 | Java         | [Link](https://github.com/medizininformatik-initiative/fhir-ontology-generator) |
-| dataportal-availibility-updater               | *No description available*                                               | Python       | [Link](https://github.com/medizininformatik-initiative/dataportal-availibility-updater) |
-| feasibility-deploy                            | Shell scripts for feasibility deployment using docker compose            | Shell        | [Link](https://github.com/medizininformatik-initiative/feasibility-deploy) |
-| feasibility-gui                               | Frontend UI for dataportal                                               | TypeScript   | [Link](https://github.com/medizininformatik-initiative/feasibility-gui) |
-| feasibility-backend                           | Backend of the feasibility-gui (dataportal)                              | Java         | [Link](https://github.com/medizininformatik-initiative/feasibility-backend) |
-| sq2cql                                        | Convert CCDL (before SQ) to CQL                                          | Java         | [Link](https://github.com/medizininformatik-initiative/sq2cql)      |
-| fhir-data-evaluator                           | Stratify FHIR data of a FHIR Server                                      | Java         | [Link](https://github.com/medizininformatik-initiative/fhir-data-evaluator) |
-| mii-testdata                                  | Assorted MII test-data tools and provisioning of testdata                |              | [Link](https://github.com/medizininformatik-initiative/mii-testdata) |
-| flare                                         | Execute a CCDL against FHIR server using FHIR search                     | Java         | [Link](https://github.com/medizininformatik-initiative/flare)       |
-| mii-process-feasibility                       | FDPG+ feasibility process plugins                                        | Java         | [Link](https://github.com/medizininformatik-initiative/mii-process-feasibility) |
-| fdpg-test-env                                 | Deployment of development environment for FDPG+                          | Jinja        | [Link](https://github.com/medizininformatik-initiative/fdpg-test-env) |
-| kds-report                                    | Creates kds-report and provides it                                       | Python       | [Link](https://github.com/medizininformatik-initiative/kds-report)  |
-| dataportal-es-init                            | Initialises elastic search for the dataportal with ontology              | Shell        | [Link](https://github.com/medizininformatik-initiative/dataportal-es-init) |
-| feasibility-monitoring                        | Automatic monitoring for the Dataportal                                  | Python       | [Link](https://github.com/medizininformatik-initiative/feasibility-monitoring) |
-| clinical-resource-transfer-definition-language| CRTDL - formal definition of a data extraction                           |              | [Link](https://github.com/medizininformatik-initiative/clinical-resource-transfer-definition-language) |
-| kds-report-converter                          | Convert DSF kds report to json formatted kds report                      | Python       | [Link](https://github.com/medizininformatik-initiative/kds-report-converter) |
-| fdpg-ontology-translation                     | Generates translations for ontologies using deepl                        | Python       | [Link](https://github.com/medizininformatik-initiative/fdpg-ontology-translation) |
-| Projectathon7-VHF-DataExtraction              | Data Extraction for Projectathon 7                                       | Python       | [Link](https://github.com/medizininformatik-initiative/Projectathon7-VHF-DataExtraction) |
-| clinical-cohort-definition-language           | CCDL - formal definition of a cohort/feasibility                         | Python       | [Link](https://github.com/medizininformatik-initiative/clinical-cohort-definition-language) |
-| fdpg-query-data-validation                    | Validate FDPG FHIR data quality                                          | Python       | [Link](https://github.com/medizininformatik-initiative/fdpg-query-data-validation) |
-| fhir-server-examples                          | Docker & Makefile examples for FHIR servers                              |              | [Link](https://github.com/medizininformatik-initiative/fhir-server-examples) |
-| feasibility-auth                              | Keycloak setup for dataportal (dev)                                      |              | [Link](https://github.com/medizininformatik-initiative/feasibility-auth) |
-| fdpg-plus                                     | FDPG+ core repo                                                          |              | [Link](https://github.com/medizininformatik-initiative/fdpg-plus)   |
-| fhir-performance-test                         | Test the paging performance of your FHIR server                          |              | [Link](https://github.com/medizininformatik-initiative/fhir-performance-test) |
+| Repository Name                                                                                     | Repository Information | Description                                                              | Language     |
+|------------------------------------------------------------------------------------------------------|--------|--------------------------------------------------------------------------|--------------|
+| [torch](https://github.com/medizininformatik-initiative/torch)                                      |        | Extracts data from FHIR Server according to CRTDL                        | Java         |
+| [fhir-ontology-generator](https://github.com/medizininformatik-initiative/fhir-ontology-generator)  |        | Generate FHIR ontologies                                                 | Java         |
+| [dataportal-availibility-updater](https://github.com/medizininformatik-initiative/dataportal-availibility-updater) |        | *No description available*                                               | Python       |
+| [feasibility-deploy](https://github.com/medizininformatik-initiative/feasibility-deploy)            |        | Shell scripts for feasibility deployment using docker compose            | Shell        |
+| [feasibility-gui](https://github.com/medizininformatik-initiative/feasibility-gui)                  |        | Frontend UI for dataportal                                               | TypeScript   |
+| [feasibility-backend](https://github.com/medizininformatik-initiative/feasibility-backend)          | [![Build](https://github.com/medizininformatik-initiative/feasibility-backend/actions/workflows/ci.yml/badge.svg)](https://github.com/medizininformatik-initiative/feasibility-backend/actions/workflows/ci.yml) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/medizininformatik-initiative/feasibility-backend/badge)](https://scorecard.dev/viewer/?uri=github.com/medizininformatik-initiative/feasibility-backend) [![codecov](https://codecov.io/gh/medizininformatik-initiative/feasibility-backend/graph/badge.svg?token=0E6UPL7I5K)](https://codecov.io/gh/medizininformatik-initiative/feasibility-backend) [![GitHub Release](https://img.shields.io/github/v/release/medizininformatik-initiative/feasibility-backend?sort=semver&display_name=tag&style=flat&logo=github&label=current)]()                   | Backend of the feasibility-gui (dataportal)  | Java         |
+| [sq2cql](https://github.com/medizininformatik-initiative/sq2cql)                                    |        | Convert CCDL (before SQ) to CQL                                          | Java         |
+| [fhir-data-evaluator](https://github.com/medizininformatik-initiative/fhir-data-evaluator)          |        | Stratify FHIR data of a FHIR Server                                      | Java         |
+| [mii-testdata](https://github.com/medizininformatik-initiative/mii-testdata)                        |        | Assorted MII test-data tools and provisioning of testdata                |              |
+| [flare](https://github.com/medizininformatik-initiative/flare)                                      |        | Execute a CCDL against FHIR server using FHIR search                     | Java         |
+| [mii-process-feasibility](https://github.com/medizininformatik-initiative/mii-process-feasibility)  |        | FDPG+ feasibility process plugins                                        | Java         |
+| [fdpg-test-env](https://github.com/medizininformatik-initiative/fdpg-test-env)                      |        | Deployment of development environment for FDPG+                          | Jinja        |
+| [kds-report](https://github.com/medizininformatik-initiative/kds-report)                            |        | Creates kds-report and provides it                                       | Python       |
+| [dataportal-es-init](https://github.com/medizininformatik-initiative/dataportal-es-init)            |        | Initialises elastic search for the dataportal with ontology              | Shell        |
+| [feasibility-monitoring](https://github.com/medizininformatik-initiative/feasibility-monitoring)    |        | Automatic monitoring for the Dataportal                                  | Python       |
+| [clinical-resource-transfer-definition-language](https://github.com/medizininformatik-initiative/clinical-resource-transfer-definition-language) |        | CRTDL - formal definition of a data extraction                           |              |
+| [kds-report-converter](https://github.com/medizininformatik-initiative/kds-report-converter)        |        | Convert DSF kds report to json formatted kds report                      | Python       |
+| [fdpg-ontology-translation](https://github.com/medizininformatik-initiative/fdpg-ontology-translation) |        | Generates translations for ontologies using deepl                        | Python       |
+| [Projectathon7-VHF-DataExtraction](https://github.com/medizininformatik-initiative/Projectathon7-VHF-DataExtraction) |        | Data Extraction for Projectathon 7                                       | Python       |
+| [clinical-cohort-definition-language](https://github.com/medizininformatik-initiative/clinical-cohort-definition-language) |        | CCDL - formal definition of a cohort/feasibility                         | Python       |
+| [fdpg-query-data-validation](https://github.com/medizininformatik-initiative/fdpg-query-data-validation) |        | Validate FDPG FHIR data quality                                          | Python       |
+| [fhir-server-examples](https://github.com/medizininformatik-initiative/fhir-server-examples)        |        | Docker & Makefile examples for FHIR servers                              |              |
+| [feasibility-auth](https://github.com/medizininformatik-initiative/feasibility-auth)                |        | Keycloak setup for dataportal (dev)                                      |              |
+| [fdpg-plus](https://github.com/medizininformatik-initiative/fdpg-plus)                              |        | FDPG+ core repo                                                          |              |
+| [fhir-performance-test](https://github.com/medizininformatik-initiative/fhir-performance-test)      |        | Test the paging performance of your FHIR server                          |              |
 
 
 ## Community Issues
